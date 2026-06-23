@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Vivek Virkar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="progressBar"></div>
+
+    <header>
+        <div class="container">
+            <div class="logo">Vivek<span class="highlight">Dev{}</span></div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="projects.html" class="active">Our Projects</a></li>
+                    <li><a href="testimonials.html">Testimonials</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <button id="themeBtn" aria-label="Toggle Dark Mode"><i class="fas fa-moon"></i></button>
+                <div class="menu-btn" id="menuBtn"><i class="fas fa-bars"></i></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-banner">
+            <h1>Our Project Deployments</h1>
+            <p>Explore an overview of business platforms, custom layouts, and digital solutions executed by our studio desk.</p>
+        </section>
+
+        <section class="portfolio-filter container">
+            <button class="filter-btn active" data-filter="all">All Solutions</button>
+            <button class="filter-btn" data-filter="web">Web Applications</button>
+            <button class="filter-btn" data-filter="ui">UI/UX Systems</button>
+            <button class="filter-btn" data-filter="ecommerce">E-Commerce Architecture</button>
+        </section>
+
+        <section class="portfolio-grid container">
+            <div class="portfolio-card web">
+                <div class="portfolio-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=600&q=80" alt="Enterprise Platform Implementation">
+                </div>
+                <div class="portfolio-content">
+                    <h3>Commercial Inventory Portal</h3>
+                    <p>A data-centric application dashboard engineered to monitor operational workloads, supply chains, and item lifecycle metrics smoothly.</p>
+                    <div class="portfolio-links">
+                        <a href="contact.html" class="btn-text">Request Architecture Demo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-card ui">
+                <div class="portfolio-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1581291518655-9523c932dedf?auto=format&fit=crop&w=600&q=80" alt="UI Dashboard Layout Design">
+                </div>
+                <div class="portfolio-content">
+                    <h3>Enterprise Performance Analytics</h3>
+                    <p>A beautifully intuitive dashboard product tracking user interaction events, database requests, and active application uptime feeds.</p>
+                    <div class="portfolio-links">
+                        <a href="contact.html" class="btn-text">Request Architecture Demo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="portfolio-card ecommerce">
+                <div class="portfolio-img-wrapper">
+                    <img src="https://images.unsplash.com/photo-1563013544-824ae1d704d3?auto=format&fit=crop&w=600&q=80" alt="E-Commerce Store Infrastructure">
+                </div>
+                <div class="portfolio-content">
+                    <h3>B2B Secure Marketplace Engine</h3>
+                    <p>High-end transactional framework built around automated item catalogs, encrypted vendor checkout pathways, and clean invoicing databases.</p>
+                    <div class="portfolio-links">
+                        <a href="contact.html" class="btn-text">Request Architecture Demo <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta container">
+            <div class="cta-content">
+                <h2>Have A Unique System Concept?</h2>
+                <p>Let's turn your abstract operational criteria into an elegant digital product asset.</p>
+                <a href="contact.html" class="btn light-btn">Start Project</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Vivek Virkar</h3>
+            <p>Freelance Web Developer & UI Designer</p>
+            <div class="socials">
+                <a href="https://www.linkedin.com/in/vivek-virkar"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.github.com/vivekvirkar21"><i class="fab fa-github"></i></a>
+                <a href="contact.html"><i class="fab fa-signal-messenger"></i></a>
+            </div>
+            <p>© 2026 All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <button id="topBtn"><i class="fas fa-arrow-up"></i></button>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
